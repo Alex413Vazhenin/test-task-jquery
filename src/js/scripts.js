@@ -1,5 +1,5 @@
 //current date in Unicode
-var currentDate = Math.floor(Date.now() / 1000);
+var currentDate = Math.floor(Date.now() / 1000) - 31560000;
 
 let dataAboutOrg = [];
 $(document).ready(function() { 
